@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: rgb(62, 62, 229);
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.nav-bar-text {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav-bar-text:hover {
+    font-size: larger;
+}
+
+.nav-bar-menu-img {
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-bar-menu-img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.div-body {
+    /* iiiiiiiiiiii */
+    width: 100%;
+    height: 400px;
+}
+
+.grid-item-2 {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.div-menu-img {
+    /* iiiiiiiiiiii */
+    height: 350px;
+    width: 500px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(62, 62, 229);
+    color: white;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(62, 62, 229);
+    background-color:white;
+    font-weight: bold;
+    border: 2px solid rgb(62, 62, 229);
+}
+
+/* --------- */
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    place-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(62, 62, 229);
+
+}
+
+.grid-item-div-1 {
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 360px;
+    /* border: 2px solid black; */
+}
+
+.grid-item-div-2 {
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 120px;
+    /* border: 2px solid black; */
+}
+
+.button-2 {
+    padding: 15px;
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: white;
+    color: rgb(62, 62, 229);
+    font-weight: bold;
+    /* border: 2px solid black; */
+}
+
+/* div3-1 */
+
+.div3-1 {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.main-div {
+    width: 1100px;
+    height: 1000px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 50%;
+    /* Place it 50% down from the top */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 1440px;
+    /* border: 2px solid black; */
+
+}
+
+.item-img {
+    height: 400px;
+    width: 280px;
+
+}
+
+.img-doc {
+    height: 400px;
+    width: 280px;
+}
+
+/* .item-details {
+    background-color: blue;
+    color: white;
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+    bottom: 500px;
+}
+
+ */
+/* .item-detailss {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    bottom: 50px;
+   
+} */
+
+
+
+
+
+.item-detailss {
+    background-color: rgb(62, 62, 229);
+    color: black;
+    text-align: center;
+    position: relative;
+    height: 110px;
+    /* bottom: 80px; */
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* //////////// */
+.main-div2{
+    margin-top: 910px;
+}
+
+.text-long{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 910px;
+}
+.primary-div {
+    width: 700px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+/* ///////////// */
+.grid-container-3 {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.grid-item-4 {
+    width: 200px;
+    height: 130px; 
+    background-color:rgb(62, 62, 229);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px; 
+    border-radius: 2px;
+}
+
+
+
+.end-div {
+    background-color: rgb(62, 62, 229);
+    color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
